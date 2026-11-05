@@ -1,6 +1,8 @@
 name: Android APK
 on:
   push:
+    branches: [main, local-model]
+  pull_request:
     branches: [main]
   workflow_dispatch:
 permissions:
@@ -16,5 +18,5 @@ jobs:
       - run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: AiGenerateImage-debug
+          name: AiGenerateImage-local-debug
           path: app/build/outputs/apk/debug/app-debug.apk
