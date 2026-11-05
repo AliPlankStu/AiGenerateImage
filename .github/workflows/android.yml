@@ -2,6 +2,8 @@ name: Android APK
 on:
   push:
     branches: [main, local-model]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
