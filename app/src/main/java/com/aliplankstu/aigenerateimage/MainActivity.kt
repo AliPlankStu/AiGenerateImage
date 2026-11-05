@@ -13,7 +13,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.documentfile.provider.DocumentFile
 import com.google.mediapipe.framework.image.BitmapExtractor
 import com.google.mediapipe.tasks.vision.imagegenerator.ImageGenerator
-import com.google.mediapipe.tasks.vision.imagegenerator.ImageGeneratorOptions
+import com.google.mediapipe.tasks.vision.imagegenerator.ImageGenerator.ImageGeneratorOptions
 import java.io.File
 import kotlin.concurrent.thread
 
