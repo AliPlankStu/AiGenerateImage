@@ -10,7 +10,6 @@ import android.view.Gravity
 import android.view.View
 import android.widget.*
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
 import androidx.activity.ComponentActivity
 import org.json.JSONObject
 import java.io.*
